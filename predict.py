@@ -122,10 +122,10 @@ def save_predictions(dataset, out_fn):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--embedding_type", default="fasttext, bert, xlnet-base-cased, characterbert, google#electra-base-discriminator... and their '-nocontext' or '-flota-k' variants")
-    parser.add_argument("--strategy", default="average, waverage, longest, avg-omitfirst, avg-omitlast")
+    parser.add_argument("--embedding_type", default="bert", help="fasttext, bert, xlnet-base-cased, characterbert, google#electra-base-discriminator... and their '-nocontext' or '-flota-k' variants")
+    parser.add_argument("--strategy", default="average", help="average, waverage, longest, avg-omitfirst, avg-omitlast")
     parser.add_argument("--monopoly", default="mono", help="mono or poly")
-    parser.add_argument("--pos", default="v", help="n or v")
+    parser.add_argument("--pos", default="n", help="n or v")
     args = parser.parse_args()
 
     # Load dataset
