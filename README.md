@@ -4,7 +4,7 @@ This repository contains data (and soon code) for the paper:
 
 Aina Garí Soler, Matthieu Labeau and Chloé Clavel (2024). Impact of Word Splitting on the Semantic Content of Contextualized Word Representations. To appear in Transactions of the Association for Computational Linguistics (TACL).
 
-## Between-word experiments
+## Inter-word experiments
 
 ### The SPLIT-SIM dataset
 
@@ -69,10 +69,28 @@ The analyses and results presented in the paper can be found in the Jupyter note
 
 ## Within-word experiments 
 
-(coming soon)
+The `WiC/` folder contains a slightly modified version of WiC (with ids and gold labels in a single file). The original WiC dataset can be downloaded from [this website](https://pilehvar.github.io/wic/).
+
+The `withinword_main.py` script takes care of all the steps necessary to obtain predictions and correlations. The `withinword_results/' already contains the files that are generated when running this script.
+
+It can be run as follows:
+
+`python withinword_main.py --model_name bert-base-uncased`
+
+Additional options:
+
+* `--lemma` to replace the target word with its lemma
+* `--path_to_characterbert`, `--flota` and `--k` as above
+* `--out_dir` folder where similarities and correlations will be saved (by default, `withinword_results/`)
+
+The analyses presented in the paper can be found in Jupyter notebook `results_plots_WiC.ipynb`.
 
 
-
-#### Contact
+## Contact
 
 For any questions or requests feel free to contact me: aina dot garisoler at telecom-paris dot fr
+
+
+### Citation
+
+(coming soon)
