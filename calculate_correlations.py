@@ -174,7 +174,7 @@ if __name__ == "__main__":
             all_results.append(item)
 
     all_results = pd.DataFrame(all_results)
-    all_results.to_csv(results_dir + "all_results.tsv", sep="\t")
+    all_results.to_csv(results_dir + "all_results.tsv", sep="\t", index=False)
 
 
 
