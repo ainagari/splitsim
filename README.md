@@ -13,11 +13,11 @@ The dataset is found in the `SPLIT-SIM/` directory, separated into four `.tsv` f
 
 To facilitate replication, we share the code to:
 
-1. Extract contextyalized word representations from sentences
-2. Make similarity predictions with different pooling strategies
-3. Calculate correlations between cosine similarities and wup similarity
+1. Extract contextualized word representations from sentences
+2. Make similarity _predictions_ with different pooling strategies
+3. Calculate _correlations_ between cosine similarities and wup similarity
 
-But the obtained predictions and correlations are already included in `predictions/[MONOPOLY]_[POS]/` and `results/[MONOPOLY]_[POS]/` and can be analyzed directly with the Jupyter notebook `results_plots_SPLITSIM.ipynb`.
+The **similarity predictions obtained for our experiments** can be downloaded from [here](https://drive.google.com/file/d/1N6rR1jUGE0ZDPbHtZ6lrpofR-uO9tSkl/view?usp=sharing), and the correlations are included in `results/[MONOPOLY]_[POS]/` and can be analyzed directly with the Jupyter notebook `results_plots_SPLITSIM.ipynb`.
 
 
 #### Obtaining contextualized word representations from sentences
@@ -31,7 +31,7 @@ Other arguments are:
 * `--flota` if the Flota tokenizer is used and `--k` followed by the desired value of this parameter (3 by default)
 * `--no_context` to simply extract representations for words out of context
 
-**The sentences used in our experiments** can be found [here](https://drive.google.com/file/d/1yMJisCWTL2JSYt0RYDNp0VSEJQLh0q1h/view?usp=drive_link). The `Sentences/` folder needs to be placed in the same directory as the script.
+**The sentences used in our experiments** can be found [here](https://drive.google.com/file/d/1BdvhCDOBayVUeihk64rtQkrX4216eJPF/view?usp=sharing). The `Sentences/` folder needs to be placed in the same directory as the script.
 
 After running `extract_representations.py`, the embeddings will be saved under the `Representations/` directory, in the corresponding dataset folder, with one pickle file per lemma.
 
