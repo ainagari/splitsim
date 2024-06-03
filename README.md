@@ -96,7 +96,7 @@ For any questions or requests feel free to contact me: aina dot garisoler at tel
 If you use the code in this repository, please cite our paper:
 ```
 @article{gari-soler-etal-2024-impact,
-    author = {Gar\i Soler, Aina and Labeau, Matthieu and Clavel, Chloé},
+    author = {Gar\'i Soler, Aina and Labeau, Matthieu and Clavel, Chloé},
     title = "{The Impact of Word Splitting on the Semantic Content of Contextualized Word Representations}",
     journal = {Transactions of the Association for Computational Linguistics},
     volume = {12},
