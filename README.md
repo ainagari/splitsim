@@ -2,7 +2,7 @@
 
 This repository contains data and code for the paper:
 
-Aina Garí Soler, Matthieu Labeau and Chloé Clavel (2024). The Impact of Word Splitting on the Semantic Content of Contextualized Word Representations. To appear in Transactions of the Association for Computational Linguistics (TACL).
+Aina Garí Soler, Matthieu Labeau and Chloé Clavel (2024). [The Impact of Word Splitting on the Semantic Content of Contextualized Word Representations](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00647/120475/The-Impact-of-Word-Splitting-on-the-Semantic). In Transactions of the Association for Computational Linguistics (TACL), 12 299–320.
 
 ## Inter-word experiments
 
