@@ -88,7 +88,7 @@ The analyses presented in the paper can be found in Jupyter notebook `results_pl
 
 ## Contact
 
-For any questions or requests feel free to contact me: aina dot garisoler at telecom-paris dot fr
+For any questions or requests feel free to [contact me](https://ainagari.github.io/menu/contact.html).
 
 
 ### Citation
